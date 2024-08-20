@@ -83,9 +83,9 @@ function Panel({ title, children, alt, onshow, isActive }) {
     <>
       <div>
         <div className="flex items-center justify-between py-6 gap-5">
-          <h4 className="font-semibold hover:text-purple-600 transition-all duration-300 ease-in-out cursor-pointer">
+          <h2 className="font-semibold hover:text-purple-600 transition-all duration-300 ease-in-out cursor-pointer">
             {title}
-          </h4>
+          </h2>
           <motion.img
             src={isActive ? minus : plus}
             alt={alt}
