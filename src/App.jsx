@@ -23,7 +23,7 @@ function App() {
             className="absolute top-44 mx-6 bg-white rounded-md p-5 border shadow-lg md:mx-36 lg:mx-72 xl:mx-[30rem]"
           >
             <div className="flex items-center gap-7 flex-row-reverse justify-end">
-              <h2 className="font-semibold text-5xl">FAQs</h2>
+              <h1 className="font-semibold text-5xl">FAQs</h1>
               <img src={star} alt="star" loading="lazy" />
             </div>
             <Panel
