@@ -2,7 +2,7 @@ import React from 'react';
 import star from './assets/icon-star.svg';
 import plus from './assets/icon-plus.svg';
 import minus from './assets/icon-minus.svg';
-import { motion, AnimatePresence, LazyMotion, domAnimation, m  } from 'framer-motion';
+import { motion, AnimatePresence} from 'framer-motion';
 import { useState } from 'react';
 
 function App() {
@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <section className="font-workSans">
-        <LazyMotion features={domAnimation}>
           <div className="w-full bg-hero-pattern h-[40vh] bg-cover bg-center lg:bg-hero-pattern-large relative"></div>
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -74,7 +73,6 @@ function App() {
               other community members.
             </Panel>
           </motion.div>
-        </LazyMotion>
       </section>
     </>
   );
