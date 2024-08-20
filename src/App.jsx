@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <section className="font-workSans">
-          <div className="w-full bg-hero-pattern h-[40vh] bg-cover bg-center lg:bg-hero-pattern-large relative"></div>
-          <motion.div
+          <header className="w-full bg-hero-pattern h-[40vh] bg-cover bg-center lg:bg-hero-pattern-large relative"></header>
+          <motion.main
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -72,7 +72,7 @@ function App() {
               There's a help channel where you can ask questions and seek support from
               other community members.
             </Panel>
-          </motion.div>
+          </motion.main>
       </section>
     </>
   );
